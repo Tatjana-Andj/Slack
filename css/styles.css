@@ -198,7 +198,7 @@ input[type=submit]:hover {
 }
 
 .dark {
-	background:linear-gradient(to top,  rgba(0,0,0,0.85) 54%,rgba(0,0,0,0.66) 74%,rgba(0,0,0,0.62) 79%,rgba(0,0,0,0) 100%); 
+	background: linear-gradient(to top, rgba(0,0,0,0.99) 54%,rgba(0,0,0,0.76) 74%,rgba(0,0,0,0.73) 79%,rgba(0,0,0,0) 100%); 
 	margin-top: 57px;
 	padding-top: 30px;
 	position: relative;
