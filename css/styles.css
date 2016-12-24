@@ -1,0 +1,410 @@
+* {
+	box-sizing: border box;
+}
+
+body, html {
+	color: #4A4A4A;
+    font-family: Slack-Lato,sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	position: static;
+}
+nav {
+	width: 100%;
+	height: 70px;
+}
+nav .logo {
+	background: url("https://a.slack-edge.com/66f9/img/landing/header_logo_sprite.png") left top no-repeat;
+	background-size: 106px 60px;
+	height: 30px;
+	width: 106px;
+	float: left;
+	margin:20px 0 0 10px;
+
+}
+
+nav {
+	clear: both;
+	text-align: right;
+	display: inline-block;
+}
+nav ul {
+	list-style: none;
+	margin-right: 20px;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav ul .unseen {
+	display: none;
+}
+
+nav ul a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 700;
+	position: relative;
+	border-radius: 5px;
+	opacity: .8;
+	line-height: 1em;
+	padding:10px 14px 12px
+}
+
+nav ul a:hover {
+	opacity: 1;
+}
+
+.sign-in {
+	border:2px solid rgba(255,255,255,.75);
+	border-radius: 4px;
+	line-height: 1em;
+	padding:6px 2px;
+	font-size: 15px;
+}
+
+.sign-in a {
+	padding: 4px 6px;
+}
+.cover {
+	width: 100%;
+	height: 100%;
+	background: url("https://a.slack-edge.com/4030/img/wired/nasa-header-image.jpg");
+	background-color: #999;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: center top;
+}
+
+.story {
+	text-align: center;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 140px;
+}
+
+h1 {
+	color: rgb(255, 255, 255);
+	font-size: 50px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+h6 {
+	text-align: center;
+	color: rgb(255, 255, 255);
+	font-size: 20px;
+	margin-top: 26px;
+	font-weight: lighter;
+	margin-bottom: 18px;
+}
+
+.form-div {
+	width: 525px;
+	height: 120px;
+	background: rgba(0, 0, 0, 0.65098);
+	padding:19px 33px;
+	border-radius: 8px;
+	display:inline-block;
+	text-align: center;
+	box-sizing: border-box;
+}
+.forma {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+input[type=email] {
+	width: 180px;
+	height: 19px;
+	margin-right: 7px;
+	padding: 11px 11px;
+	border-radius: 4px;
+	border: 1px solid #C5C5C5
+	line-height:normal;
+	font-size: 20px;
+	display: inline-block;
+	border: 1px solid #C5C5C5;
+}
+
+input[type=submit] {
+	background-color: rgb(86, 182, 139);
+	border-radius: 4px;
+	width: 160px;
+	height: 40px;
+	cursor: pointer;
+	display: inline-block;
+	border: 1px solid rgb(86, 182, 139);
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+}
+
+input[type=submit]:hover {
+	opacity: 0.8;
+}
+
+.text {
+	display: block;
+	text-align: center;
+	margin:14px 0 0;
+	font-size: 12px;
+	text-shadow: 0 0 1px rgba(0,0,0,.1);
+	color: rgb(255, 255, 255);
+	line-height: 22px;
+}
+
+.sign {
+	color: rgb(255, 255, 255);
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.story-location {
+	margin-top: 10px;
+	text-align: left;
+	position: absolute;
+	right: 25px;
+	line-height: 18px;
+	font-size: 12px;
+	display: block;
+}
+
+.story-loc {
+	text-decoration: none;
+	color: #fff;
+	font-size: 13px;
+	font-weight: bolder;
+	text-shadow: rgba(0, 0, 0, 0.098);
+}
+.story-loc:hover {
+	text-decoration: underline;
+}
+
+.location {
+	text-decoration: none;
+	color: #fff;
+	text-shadow: rgba(0, 0, 0, 0.098);
+}
+
+.location:hover {
+	text-decoration: underline;
+}
+
+.dark {
+	background: linear-gradient(to top,  rgba(0,0,0,0.65) 24%,rgba(0,0,0,0.56) 34%,rgba(0,0,0,0.52) 39%,rgba(0,0,0,0) 100%); 
+	margin-top: 57px;
+	padding-top: 30px;
+	position: relative;
+	border-top: 1px solid rgba(255, 255, 255, 0.701961);
+}
+.lists {
+	text-align: center;
+	display: block;
+	width: 70%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.link-list {
+	display:inline-block;
+	text-align: center;
+	vertical-align: top;
+	width: 200px;
+}
+
+.list {
+	float: left;
+	display:inline-block;
+	text-align: left;
+	list-style: none;
+	font-size: 11px;	
+}
+
+.list li {
+	display:block;
+	line-height: 25px;
+}
+.list li a {
+	text-decoration: none;
+	color:rgba(255,255,255,.7);
+	opacity: .8;
+}
+
+.list li a:hover {
+	opacity: 1;
+}
+
+.link-list .cat {
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+}
+
+.footnote {
+	    background-color: #1A1C19;
+	    margin-top: 16px;
+	    overflow: hidden;
+	    height: 50px;
+}
+
+section {
+	height: 50px;
+	clear: both;
+    box-sizing: border-box;
+    max-width: 1014px;
+    padding-left: 140px;
+    padding-right: 120px;
+    margin: 0 auto;
+}
+
+
+a .fa-slack {
+	display: inline-block;
+	color: rgba(255,255,255,.5);
+	font-size: 22px;
+	margin-top: 16px;
+	opacity: .8;
+}
+
+a .fa-slack:hover {
+	opacity: 1;
+}
+
+section ul {
+	margin: 0 20px 0 0;
+    padding: 0;
+    list-style-type: none;
+    float: right;
+}
+
+section ul li {
+	display: inline-block;
+    list-style: none;
+    margin-right: 11px;
+    float: left;
+    line-height: 50px
+}
+
+section ul li a {
+	text-decoration: none;
+	color: rgba(255,255,255,.5);
+	opacity: .8;
+}
+
+section ul li a:hover {
+	opacity: 1;
+}
+
+
+/* ----------------------------------------------max-width: 1000px-----*/
+
+@media screen and (max-width: 1000px) {
+
+	nav ul a {
+		padding: 5px 5px 5px;
+	}
+
+	h1 {
+		font-size: 40px;
+	}
+
+	h6 {
+		font-size: 16px;
+	}
+		
+	.lists {
+		width: 100%;
+	}
+
+	.link-list {
+		width: 200px;
+	}
+
+	section {
+		padding-left: 120px;
+    	padding-right: 90px;
+	}
+}
+
+
+/* ----------------------------------------------max-width: 800px-----*/
+
+@media screen and (max-width: 800px) {
+	
+	nav ul a {
+		padding: 5px 5px 5px;
+	}
+
+	h1 {
+		font-size: 40px;
+	}
+
+	h6 {
+		font-size: 16px;
+	}
+		
+	.lists {
+		width: 100%;
+	}
+
+	.link-list {
+		width: 150px;
+	}
+
+	section {
+		padding-left: 120px;
+    	padding-right: 75px;
+	}
+}
+
+/* ----------------------------------------------max-width: 700px-----*/
+
+@media screen and (max-width: 700px) {
+
+	nav ul li:nth-child(-n+5) {
+		display: none;
+	}
+
+	nav ul .unseen {
+	display: inline-block;
+	}
+
+	h6 {
+		font-size: 14px;
+	}
+
+	.lists {
+		display: none;
+	}
+	section {
+		padding-left: 70px;
+    	padding-right: 20px;
+	}
+}
+
+/* ----------------------------------------------max-width: 600px-----*/
+
+@media screen and (max-width: 600px) {
+
+	.lists {
+		display: none;
+	}
+
+	.story-location {
+		display: none;
+	}
+
+	section {
+		padding-left: 10px;
+    	padding-right: 0;
+	}
+}
+
+/* ----------------------------------------------max-width: 400px-----*/
+
+@media screen and (max-width: 400px)
